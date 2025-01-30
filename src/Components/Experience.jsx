@@ -1,4 +1,6 @@
 import React from "react";
+import { RoughNotation } from "react-rough-notation";
+
 const Experience = () => {
   return (
     <div className="flex gap-10 p-10 mt-55">
@@ -14,7 +16,15 @@ const Experience = () => {
         {/* Experience Block */}
         <div className="relative">
           <h3 className="text-lg font-semibold">
-            Front End Development - Full-Time
+            <RoughNotation
+              type="highlight"
+              color="#ffcc00"
+              animationDuration={1000}
+              show={true}
+              iterations={Infinity}
+            >
+              Front End Development - Full-Time
+            </RoughNotation>
           </h3>
           <p className="text-gray-500">
             Bearsight | 06/2024 - Present | Canada - Remotely
@@ -25,11 +35,31 @@ const Experience = () => {
           </p>
           <ul className="list-disc list-inside mt-2 text-gray-600">
             <li>
-              Developed dynamic user interfaces using ReactJS for seamless UX.
+              Developed dynamic user interfaces using ReactJS for{" "}
+              <RoughNotation
+                type="highlight"
+                color="pink"
+                animationDuration={1000}
+                show={true}
+                iterations={Infinity}
+              >
+                seamless
+              </RoughNotation>{" "}
+              UX.
             </li>
             <li>Implemented efficient state management with React hooks.</li>
             <li>
-              Utilized Axios for API requests, ensuring smooth data fetching.
+              Utilized Axios for{" "}
+              <RoughNotation
+                type="highlight"
+                color="orange"
+                animationDuration={1000}
+                show={true}
+                iterations={Infinity}
+              >
+                API
+              </RoughNotation>{" "}
+              requests, ensuring smooth data fetching.
             </li>
             <li>Resolved critical bugs to enhance application stability.</li>
             <li>
