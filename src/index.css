@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Manrope", serif;
+  background-color: #fff;
+}
+
+.hero-title {
+  font-family: "DotGothic16", serif;
+}
