@@ -1,6 +1,6 @@
 import ManageImage from "../../src/images/manage-image.jpg";
 import EvolveImage from "../../src/images/evolve-lab.jpg";
-import MemeWebsiteImage from "../../src/images/meme-website.jpg";
+import MemeWebsiteImage from "../../src/images/meme-website.JPG";
 import BrewBuddyImage from "../../src/images/brewbuddy-pic.JPG";
 export default [
   {
