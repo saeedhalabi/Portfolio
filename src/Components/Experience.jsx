@@ -1,17 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { RoughNotation } from "react-rough-notation";
 
 const Experience = () => {
-  const [showHighlight, setShowHighlight] = useState(false);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setShowHighlight(prev => !prev);
-    }, 1500);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div className="flex gap-10 p-10 mt-55">
       {/* Vertical text */}
@@ -30,7 +20,8 @@ const Experience = () => {
               type="highlight"
               color="#ffcc00"
               animationDuration={1000}
-              show={showHighlight}
+              iterations={Infinity}
+              show={true}
             >
               Front End Development - Full-Time
             </RoughNotation>
@@ -49,7 +40,8 @@ const Experience = () => {
                 type="highlight"
                 color="pink"
                 animationDuration={1000}
-                show={showHighlight}
+                iterations={Infinity}
+                show={true}
               >
                 seamless
               </RoughNotation>{" "}
@@ -62,7 +54,8 @@ const Experience = () => {
                 type="highlight"
                 color="orange"
                 animationDuration={1000}
-                show={showHighlight}
+                iterations={Infinity}
+                show={true}
               >
                 API
               </RoughNotation>{" "}
