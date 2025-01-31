@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <section className="mt-40">
-      <h1 className="hero-title text-2xl text-center">
+      <h1 className="hero-title lg:text-2xl sm:text-base text-center">
         <TypeAnimation
           sequence={[
             "<front-end.web(developer)>",

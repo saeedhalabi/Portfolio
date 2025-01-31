@@ -8,11 +8,11 @@ const Navbar = () => {
   };
 
   const menuItems = [
-    "home",
-    "about me",
-    "projects",
-    "experience",
-    "contact me",
+    { name: "home", id: "home" },
+    { name: "about me", id: "about" },
+    { name: "projects", id: "projects" },
+    { name: "experience", id: "experience" },
+    { name: "contact me", id: "contact" },
   ];
 
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
 
       {/* Hamburger Icon */}
       <svg
-        className="lg:hidden cursor-pointer w-6 h-6"
+        className="lg:hidden cursor-pointer w-6 h-6 transition-all"
         onClick={toggleMenu}
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -36,10 +36,7 @@ const Navbar = () => {
         {!menuOpen ? (
           <path d="M4 6h16M4 12h16M4 18h16" />
         ) : (
-          <path
-            d="M6 18L18 6M6 6l12 12"
-            className="transition-all duration-300 ease-in-out"
-          />
+          <path d="M6 18L18 6M6 6l12 12" />
         )}
       </svg>
 
@@ -47,13 +44,15 @@ const Navbar = () => {
       <ul
         className={`flex gap-5 font-light ${
           menuOpen
-            ? "flex-col absolute top-16 left-0 w-full bg-white p-4"
+            ? "flex-col absolute top-16 left-0 w-full bg-white p-4 z-10"
             : "hidden lg:flex"
         }`}
       >
         {menuItems.map((item, index) => (
           <li key={index} className="group relative cursor-pointer">
-            {item}
+            <a href={`#${item.id}`} className="bg-transparent border-none">
+              {item.name}
+            </a>
             <span className="absolute left-0 bottom-[-2px] h-[2px] w-0 bg-black transition-all duration-300 ease-out group-hover:w-full"></span>
           </li>
         ))}
