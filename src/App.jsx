@@ -3,13 +3,15 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
+import About from "./Components/About";
 const App = () => {
   return (
-    <main>
+    <main className="grid col-span-full">
       <Navbar />
       <Hero />
       <Experience />
       <Projects />
+      <About />
     </main>
   );
 };
