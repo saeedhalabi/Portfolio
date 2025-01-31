@@ -16,7 +16,7 @@ const About = () => {
     AOS.init({
       duration: 400, // Animation duration
       easing: "ease-in-out", // Easing function
-      once: true, // Trigger animation only once
+      once: false, // Trigger animation only once
     });
   }, []);
   return (
