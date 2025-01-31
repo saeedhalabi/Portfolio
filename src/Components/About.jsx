@@ -26,7 +26,7 @@ const About = () => {
       {/* About Section */}
       <section className="text-left relative">
         <header>
-          <h2 className="text-2xl font-bold relative">About Me</h2>
+          <h2 className="text-2xl font-bold relative">about me</h2>
           <span className="w-16 h-1 bg-black absolute left-0 top-8"></span>
         </header>
         <div className="flex flex-col items-center text-center mt-6">
@@ -89,7 +89,7 @@ const About = () => {
           },
           {
             title: "React.js",
-            desc: "Build your system with React.js.",
+            desc: "Build dynamic, interactive UIs with React.js",
             icon: <FaReact className="text-blue-500 text-3xl" />,
           },
         ].map((skill, index) => (
