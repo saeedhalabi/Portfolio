@@ -9,7 +9,7 @@ const About = () => {
     AOS.init({
       duration: 400,
       easing: "ease-in-out",
-      once: true,
+      once: false,
     });
   }, []);
 
