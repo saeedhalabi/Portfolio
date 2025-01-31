@@ -1,14 +1,6 @@
 import React, { useEffect } from "react";
 import SaeedImage from "../../src/images/saeed-profile.jpg";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaGithub,
-  FaXTwitter,
-  FaEnvelope,
-} from "react-icons/fa6";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -47,30 +39,6 @@ const About = () => {
             Focused on using ReactJS and state management to build engaging user
             experiences.
           </p>
-          <div className="flex space-x-4 mt-3 text-xl">
-            <a
-              href="https://x.com/saeedhalabi_"
-              className="text-black font-light"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaXTwitter />
-            </a>
-            <a
-              href="https://github.com/saeedhalabi"
-              className="text-black font-light"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="mailto:saeedrhalabi@gmail.com"
-              className="text-black font-light"
-            >
-              <FaEnvelope />
-            </a>
-          </div>
         </div>
       </section>
 
