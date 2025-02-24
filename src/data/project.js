@@ -17,7 +17,7 @@ export default [
     subtitle: "Submit and share your innovative ideas with the team",
     description:
       "Evolve Lab is committed to enhancing work environments by providing a platform where employees can share and discuss suggestions for improvement. Join us in creating a better workplace for everyone.",
-    tags: ["ReactJS", "Bootstrap CSS", "Framer Motion"],
+    tags: ["React.js", "Bootstrap CSS", "Framer Motion"],
     image: EvolveImage,
     link: "https://evolve-lab.netlify.app/",
   },
@@ -26,7 +26,7 @@ export default [
     subtitle: "Create Memes Instantly – Unleash Your Creativity!",
     description:
       "Easily generate hilarious memes with our simple and fast meme generator! Upload images, add captions, and share your creations in seconds. No design skills needed—just pure fun!",
-    tags: ["ReactJS", "CSS"],
+    tags: ["React.js", "CSS"],
     image: MemeWebsiteImage,
     link: "https://saeedhalabi-meme-generator.netlify.app/",
   },

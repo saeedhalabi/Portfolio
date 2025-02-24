@@ -23,11 +23,11 @@ const Experience = () => {
               iterations={Infinity}
               show={true}
             >
-              Front End Development - Full-Time
+              Frontend Development - Full-Time
             </RoughNotation>
           </h3>
           <p className="text-gray-500">
-            Bearsight | 06/2024 - Present | Canada - Remotely
+            Bearsight Inc. 06/2024 - Present | Canada - Remotely
           </p>
           <p className="mt-2 text-gray-700">
             Bearsight builds tools that provide valuable insights, helping
@@ -35,7 +35,7 @@ const Experience = () => {
           </p>
           <ul className="list-disc list-inside mt-2 text-gray-600">
             <li>
-              Developed dynamic user interfaces using ReactJS for{" "}
+              Developed dynamic user interfaces using React.js for{" "}
               <RoughNotation
                 type="highlight"
                 color="pink"

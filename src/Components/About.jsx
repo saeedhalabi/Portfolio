@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import SaeedImage from "../../src/images/saeed-profile.jpg";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa6";
+import { FaHtml5, FaJs, FaReact } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -33,8 +33,8 @@ const About = () => {
             data-aos-duration="1000"
             className="text-gray-600 mt-2 max-w-lg"
           >
-            Front-End Developer with a strong ability to learn and collaborate
-            in dynamic environments. Experienced in creating responsive web
+            Frontend Developer with a strong ability to learn and collaborate in
+            dynamic environments. Experienced in creating responsive web
             applications using modern JavaScript frameworks and libraries.
             Focused on using ReactJS and state management to build engaging user
             experiences.
@@ -83,10 +83,11 @@ const About = () => {
               "HTML",
               "CSS",
               "JavaScript",
-              "ReactJS",
+              "React.js",
               "JQuery",
-              "Bootstrap",
-              "NodeJS",
+              "Bootstrap CSS",
+              "Tailwind CSS",
+              "Node.js",
               "PostgreSQL",
               "Git, GitHub",
               "CSS Preprocessors",
@@ -103,6 +104,7 @@ const About = () => {
               "Node.js Basics",
               "RESTful API Development",
               "User Experience Design",
+              "Backend Development",
             ],
           },
         ].map((section, index) => (

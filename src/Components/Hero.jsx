@@ -7,9 +7,9 @@ const Hero = () => {
       <h1 className="hero-title lg:text-2xl sm:text-base text-center">
         <TypeAnimation
           sequence={[
-            "<front-end.web(developer)>",
+            "<frontend.web(developer)>",
             1000,
-            "<React enthusiast/>",
+            "<React.js enthusiast/>",
             1000,
           ]}
           speed={50}
