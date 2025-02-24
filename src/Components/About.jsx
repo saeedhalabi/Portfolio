@@ -92,6 +92,7 @@ const About = () => {
               "Git, GitHub",
               "CSS Preprocessors",
               "TypeScript",
+              "Redux",
             ],
           },
           {
