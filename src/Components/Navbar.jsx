@@ -23,7 +23,7 @@ const Navbar = () => {
 
       {/* Hamburger Icon */}
       <svg
-        className="lg:hidden cursor-pointer w-6 h-6 transition-all"
+        className="lg:hidden w-6 h-6 transition-all"
         onClick={toggleMenu}
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -49,7 +49,7 @@ const Navbar = () => {
         }`}
       >
         {menuItems.map((item, index) => (
-          <li key={index} className="group relative cursor-pointer">
+          <li key={index} className="group relative">
             <a href={`#${item.id}`} className="bg-transparent border-none">
               {item.name}
             </a>

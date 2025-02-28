@@ -5,10 +5,12 @@ import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import CustomCursor from "./CustomCursor";
 
 const App = () => {
   return (
     <main className="grid col-span-full">
+      <CustomCursor />
       <Navbar />
       <section id="home">
         <Hero />

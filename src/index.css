@@ -6,8 +6,71 @@ html {
 body {
   font-family: "Manrope", serif;
   background-color: #fff;
+  cursor: none !important;
+}
+a {
+  cursor: none;
 }
 
 .hero-title {
   font-family: "DotGothic16", serif;
+}
+.custom-cursor {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.8); /* Brighter for visibility */
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: transform 0.15s ease-out, width 0.15s ease-out,
+    height 0.15s ease-out;
+  z-index: 9999;
+}
+
+/* Outer ring effect */
+.custom-cursor-ring {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: transform 0.25s ease-out;
+  z-index: 9998;
+}
+
+/* Glow effect */
+.custom-cursor-glow {
+  width: 50px;
+  height: 50px;
+  background: rgba(1, 238, 255, 0.2);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  filter: blur(10px);
+  transition: transform 0.25s ease-out, opacity 0.3s ease-out;
+  z-index: 9997;
+}
+
+/* Cursor expands when hovering over links & buttons */
+.custom-cursor.hover {
+  width: 20px;
+  height: 20px;
+  background-color: #01eeff;
+}
+
+.custom-cursor-ring.hover {
+  width: 50px;
+  height: 50px;
+  border-color: #01eeff;
+}
+
+.custom-cursor-glow.hover {
+  width: 60px;
+  height: 60px;
+  opacity: 0.8;
 }
