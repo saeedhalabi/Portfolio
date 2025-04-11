@@ -1,13 +1,13 @@
 import ManageImage from "../../src/images/manage-image.jpg";
 import EvolveImage from "../../src/images/evolve-lab.jpg";
 import MemeWebsiteImage from "../../src/images/meme-website.JPG";
-import BrewBuddyImage from "../../src/images/brewbuddy-pic.JPG";
+import GitHubUserFinderImg from "../../src/images/github_user_finder_img.png";
 export default [
   {
     title: "Manage Learning",
-    subtitle: "Bring everyone together to build better products",
+    subtitle: "Clean, collaborative UI for product teams",
     description:
-      "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
+      "built this responsive landing page to showcase a modern, team-focused product. Designed with Tailwind CSS, it emphasizes clear structure, smooth layout, and clean visual hierarchy—ideal for showcasing UI skills.",
     tags: ["HTML", "Tailwind CSS"],
     image: ManageImage,
     link: "https://saeedhalabi-tailwind-manage-learning.netlify.app/",
@@ -16,27 +16,28 @@ export default [
     title: "Evolve Lab",
     subtitle: "Submit and share your innovative ideas with the team",
     description:
-      "Evolve Lab is committed to enhancing work environments by providing a platform where employees can share and discuss suggestions for improvement. Join us in creating a better workplace for everyone.",
+      "Evolve Lab is a platform built to help employees share ideas and suggestions for improving the workplace, making it easier to create a better environment for everyone",
     tags: ["React.js", "Bootstrap CSS", "Framer Motion"],
     image: EvolveImage,
     link: "https://evolve-lab.netlify.app/",
   },
   {
     title: "Meme Generator",
-    subtitle: "Create Memes Instantly – Unleash Your Creativity!",
+    subtitle: "Make Memes in Seconds – Have Fun and Get Creative!",
     description:
-      "Easily generate hilarious memes with our simple and fast meme generator! Upload images, add captions, and share your creations in seconds. No design skills needed—just pure fun!",
+      "Whip up funny memes in no time! Just upload an image, add a caption, and share the laughs",
     tags: ["React.js", "CSS"],
     image: MemeWebsiteImage,
     link: "https://saeedhalabi-meme-generator.netlify.app/",
   },
   {
-    title: "Brew Buddy",
-    subtitle: "Your Companion for Coffee Delights",
+    title: "GitHub User Finder",
+    subtitle:
+      "Search and explore GitHub user profiles using real-time API data",
     description:
-      "BrewBuddy is your go-to app for exploring a variety of coffee options and managing your orders with ease. Whether you're a coffee aficionado or just looking for your daily caffeine fix, BrewBuddy has got you covered. Browse through our selection of delicious beverages, add them to your cart, and proceed to checkout hassle-free. With BrewBuddy, your coffee cravings are just a click away.",
-    tags: ["HTML", "Tailwind CSS", "JavaScript"],
-    image: BrewBuddyImage,
-    link: "https://brewbuddy.netlify.app/",
+      "A React-based application that lets users search for GitHub profiles and view public data like avatars, bios, and repositories.",
+    tags: ["React.js", "TypeScript", "Tailwind CSS", "API Integration"],
+    image: GitHubUserFinderImg,
+    link: "https://github-info-finder.netlify.app/",
   },
 ];
