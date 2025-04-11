@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import SaeedImage from "../../src/images/saeed-profile.jpg";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa6";
+import { BiLogoTypescript } from "react-icons/bi";
+import { RiTailwindCssFill } from "react-icons/ri";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -60,6 +63,16 @@ const About = () => {
             desc: "Build dynamic, interactive UIs with React.js",
             icon: <FaReact className="text-blue-500 text-3xl" />,
           },
+          {
+            title: "TypeScript",
+            desc: "Stronger, type-safe JavaScript applications",
+            icon: <BiLogoTypescript className="text-blue-600 text-3xl" />,
+          },
+          {
+            title: "Tailwind CSS",
+            desc: "Utility-first CSS for faster UI development",
+            icon: <RiTailwindCssFill className="text-blue-500 text-3xl" />,
+          },
         ].map((skill, index) => (
           <article
             data-aos="fade-up"
@@ -93,6 +106,8 @@ const About = () => {
               "CSS Preprocessors",
               "TypeScript",
               "Redux",
+              "Express.js",
+              "MongoDB"
             ],
           },
           {
