@@ -23,7 +23,7 @@ const Experience = () => {
               iterations={Infinity}
               show={true}
             >
-              Frontend Development - Full-Time
+              Frontend Developer - Full-Time
             </RoughNotation>
           </h3>
           <p className="text-gray-500">
